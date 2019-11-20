@@ -1,20 +1,15 @@
 - links:
-  - name: Services
-    link: /services/
-  - name: Blog
-    link: /blog/
   - name: About
     link: /about/
+  - name: Services
+    link: /services/
 
 - links:
+  - name: Blog
+    link: /blog/
   - name: Contact
     link: /contact/
     new_window: false
-  - name: Docs
-    link: /
-    new_window: true
-  - name: Contact
-    link: /contact/
 - links:
   - name: Facebook
     link: https://facebook.com/cloudcannon/
