@@ -1,71 +1,69 @@
 ---
 title: Services
-heading: Find the perfect provider for your home
-description: All plans include our award winning sales optimization solution to track your sales in real time.
+heading: The perfect provider for your home
+description: All our work is covered by professional liability insurance.
 pricing_table:
-  - name: Boiler Servicing
+  - name: Repairs & Servicing
     color: "#4182e4"
     features:
-      - text: $25 per month
-        highlight: true
-      - text: Up to 5 users
+      - text: Boiler faults
         highlight: false
-      - text: Basic lead scoring
+      - text: Gas leaks
         highlight: false
-      - text: CRM
+      - text: Central heating wiring faults
         highlight: false
-      - text: Basic reporting
+      - text: Pressure issues
         highlight: false
-      - text: Sales map
+
+      - text: Radiator faults
         highlight: false
     call_to_action:
       link: http://mysite.com?plan=basic
       text: Get started
-  - name: Boiler Installation
+  - name: Installations
     color: "#4a4a4a"
     features:
-      - text: $99 per month
-        highlight: true
-      - text: Everything in Basic
+      - text: New boilers
         highlight: false
-      - text: Up to 25 users
+      - text: Full central heating
         highlight: false
-      - text: Advanced lead scoring
+      - text: Gas fires
         highlight: false
-      - text: Pipeline management
+      - text: Cookers / Hobs
         highlight: false
-      - text: Advanced reporting
+      - text: Central heating controls
         highlight: false
+
     call_to_action:
       link: http://mysite.com?plan=pro
       text: Get started
   - name: Safety Certificates
     color: "#4182e4"
     features:
-      - text: $299 per month
-        highlight: true
-      - text: Everything in Basic and Pro
+      - text: Boilers
         highlight: false
-      - text: Up to 100 users
+      - text: Water heaters
         highlight: false
-      - text: Campaign builder
+      - text: Gas fires
         highlight: false
-      - text: Machine learning
+      - text: Cookers / Hobs
         highlight: false
-      - text: Calendar
+      - text: Unvented cylinders
         highlight: false
+
+
     call_to_action:
       link: http://mysite.com?plan=professional
       text: Get started
 faq:
-  - question: What types of payment do you accept?
-    answer: Credit cards including MasterCard, Visa or American Express.
-  - question: Can I change my plan at a later time?
-    answer: Yes, you can upgrade and downgrade your plan at anytime.
-  - question: Do you offer pricing for nonprofit organizations?
-    answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
+  - question: Do you provide safety checks for landlords?
+    answer: Yes, we can carry out annual landlord gas safety inspections of various appliances at your property, with certificates provided.
+  - question: Do you inspect a property I am buying?
+    answer: Yes, we can provide a report and test the safety and condition of any gas or central heating appliancies in the property.
+  - question: Do you charge for quotations?
+    answer: We can provide you with a free quote on routine work. If this is a more complex job it may require a survey and would have a charge, but we would let you know of this beforehand.
   - question: Questions?
-    answer: Contact us for any further questions at <a href="#">john@business.com</a>.
+    answer: Contact us for any further questions from our <a href="/contact">contact page</a>.
 ---
 <div class="plans">
 	{% for plan in page.pricing_table %}
