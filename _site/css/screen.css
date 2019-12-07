@@ -150,9 +150,13 @@ blockquote:before { color: #ccc; content: open-quote; font-size: 4em; line-heigh
 
 .contact-box p { margin: 0; }
 
-.contact-box .contact-form, .contact-box .contact-details { margin: 0 30px; }
+.contact-box .contact-form { margin: 0 30px; }
 
-@media (min-width: 768px) { .contact-box .contact-form, .contact-box .contact-details { -webkit-flex: 1; flex: 1; } }
+@media (min-width: 768px) { .contact-box .contact-form { -webkit-flex: 2; flex: 2; } }
+
+.contact-box .contact-details { margin: 0 30px; }
+
+@media (min-width: 768px) { .contact-box .contact-details { -webkit-flex: 1; flex: 1; } }
 
 .contact-box .contact-details { font-size: .9em; }
 

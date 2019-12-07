@@ -18,7 +18,14 @@
 		margin: 0;
 	}
 
-	.contact-form, .contact-details  {
+	.contact-form  {
+		@media #{$desktop} {
+			-webkit-flex: 2;
+			flex: 2;
+		}
+		margin: 0 30px;
+    }
+    .contact-details  {
 		@media #{$desktop} {
 			-webkit-flex: 1;
 			flex: 1;
