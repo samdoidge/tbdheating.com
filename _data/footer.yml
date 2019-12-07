@@ -11,10 +11,10 @@
     link: /contact/
     new_window: false
 - links:
-  - name: Facebook
-    link: https://facebook.com/cloudcannon/
-    new_window: true
-    social_icon: Facebook
+#   - name: Facebook
+#     link: https://facebook.com/cloudcannon/
+#     new_window: true
+#     social_icon: Facebook
 #   - name: YouTube
 #     link: https://youtube.com/cloudcannon/
 #     social_icon: YouTube
