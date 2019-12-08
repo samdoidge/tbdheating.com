@@ -15,10 +15,8 @@ author:
   name:
   email:
   twitter: # twitter username without the @ symbol
-social:
-  name: Hydra Template
-  links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+
+
 
 # -----
 # Build
